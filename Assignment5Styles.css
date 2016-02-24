@@ -12,7 +12,7 @@ body
 	border-radius: 10px;
 	margin: 0px auto;
 	width: 800px;
-	font: verdana;
+	font-family: verdana;
 }
 
 #headingrow
@@ -21,7 +21,7 @@ body
 	width:800px;
 	margin: 0px auto;
 	height: 50px;
-	font-size: .85em;
+	font-size: .72em;
 	position: relative;
 }
 
@@ -75,7 +75,7 @@ body
 	float: right;
 	margin-right: 0px;
 	position: absolute;
-	right: 10px;
+	right: 0px;
 	bottom: 5px;
 }
 
@@ -93,9 +93,33 @@ body
 {
 	width: 800px;
 	margin: 0px auto;
+	position: relative;
 }
 
 #mainheading img
 {
-	margin: 0px auto;
+	width: 100%;
 }
+
+#title
+{
+	position: absolute;
+	top: 0px;
+	color: 	#EEE;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	left: 25px;
+}
+
+#division
+{
+	color: #EEE;
+	position: absolute;
+	bottom: 0px;
+	right: 40px;
+	font-style: italic;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
