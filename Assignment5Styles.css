@@ -2,6 +2,7 @@ html
 {
 	background-color: #E7E7E7;
 	padding: 12px 25px 25px 12px;
+	
 }
 
 body
@@ -52,6 +53,7 @@ body
 #headingrow nav ul li:after
 {
 	content: "|";
+	color: #006699;
 }
 
 #headingrow nav ul li:last-of-type:after
@@ -67,6 +69,7 @@ body
 	display: inline-block;
 	font-weight: lighter;
 	list-style: none;
+	color: #006699;
 }
 
 #headingrow span
@@ -109,17 +112,57 @@ body
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 8px;
-	left: 25px;
+	left: 27px;
+	top: 4px;
 }
 
 #division
 {
 	color: #EEE;
 	position: absolute;
-	bottom: 0px;
-	right: 40px;
+	bottom: 45px;
+	right: 41px;
 	font-style: italic;
 	letter-spacing: 1px;
 	word-spacing: 1px;
+	font-weight: lighter;
+	margin: 0;
 }
 
+#mainnav
+{
+	margin: 0px auto;
+	text-align: center;
+	width: 800px;
+	height: 27px;
+	background: linear-gradient(to bottom, #96CAFD 0%, #03689B 100%);
+	position: absolute;
+	top: 197px;
+
+}
+
+#mainnav ul, #mainnav ul li
+{
+	display: inline;
+	margin: 0px auto;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+#mainnav ul li a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 5px;
+	color: #EEE;
+}
+
+#mainnav ul li:after
+{
+	content: "|";
+}
+
+#mainnav ul li:last-of-type:after
+{
+	content: "";
+}
