@@ -20,7 +20,9 @@ body
 	text-align: center;
 	width:800px;
 	margin: 0px auto;
+	height: 50px;
 	font-size: .85em;
+	position: relative;
 }
 
 #headingrow img
@@ -34,6 +36,9 @@ body
 	margin: 0px auto;
 	display: inline;
 	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 175px;
 }
 
 #headingrow nav ul, #headingrow nav ul li
@@ -69,6 +74,9 @@ body
 	display: inline;
 	float: right;
 	margin-right: 0px;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
 }
 
 #headingrow span input
