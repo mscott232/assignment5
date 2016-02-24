@@ -1,0 +1,93 @@
+html
+{
+	background-color: #E7E7E7;
+	padding: 12px 25px 25px 12px;
+}
+
+body
+{
+	background-color: #FFF;
+	padding: 10px;
+	border:	2px solid #A2A2A2;
+	border-radius: 10px;
+	margin: 0px auto;
+	width: 800px;
+	font: verdana;
+}
+
+#headingrow
+{
+	text-align: center;
+	width:800px;
+	margin: 0px auto;
+	font-size: .85em;
+}
+
+#headingrow img
+{
+	float: left;	
+	margin: 0px;
+}
+
+#headingrow nav
+{
+	margin: 0px auto;
+	display: inline;
+	text-align: center;
+}
+
+#headingrow nav ul, #headingrow nav ul li
+{
+	display: inline;
+	margin: 0px auto;
+	text-align: center;
+	padding: 0px;
+}
+
+#headingrow nav ul li:after
+{
+	content: "|";
+}
+
+#headingrow nav ul li:last-of-type:after
+{
+	content: "";
+}
+
+#headingrow nav ul li a
+{
+	text-decoration: none;
+	padding: 0px 3px;
+	text-align: center;
+	display: inline-block;
+	font-weight: lighter;
+	list-style: none;
+}
+
+#headingrow span
+{
+	display: inline;
+	float: right;
+	margin-right: 0px;
+}
+
+#headingrow span input
+{
+	width: 75px;
+}
+
+#headingrow span button
+{
+	margin-right: 0px;
+}
+
+#mainheading
+{
+	width: 800px;
+	margin: 0px auto;
+}
+
+#mainheading img
+{
+	margin: 0px auto;
+}
