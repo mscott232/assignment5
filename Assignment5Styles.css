@@ -11,6 +11,7 @@ body
 	padding: 10px;
 	border:	2px solid #A2A2A2;
 	border-radius: 10px;
+	box-shadow: 1px 1px 1px #CDCDCD, -1px -1px 1px #CDCDCD;
 	margin: 0px auto;
 	width: 800px;
 	font-family: verdana;
@@ -72,6 +73,16 @@ body
 	color: #006699;
 }
 
+#headingrow nav ul li a:hover, #headingrow nav ul li a:focus
+{
+	color: #FF5B00;
+}
+
+#headingrow nav ul li a:visited, #headingrow nav ul li a:active
+{
+	color: #006699;
+}
+
 #headingrow span
 {
 	display: inline;
@@ -120,7 +131,7 @@ body
 {
 	color: #EEE;
 	position: absolute;
-	bottom: 45px;
+	bottom: 26px;
 	right: 41px;
 	font-style: italic;
 	letter-spacing: 1px;
@@ -134,10 +145,11 @@ body
 	margin: 0px auto;
 	text-align: center;
 	width: 800px;
-	height: 27px;
+	height: 25px;
+	line-height: 25px;
 	background: linear-gradient(to bottom, #96CAFD 0%, #03689B 100%);
 	position: absolute;
-	top: 197px;
+	top: 195px;
 
 }
 
@@ -146,7 +158,6 @@ body
 	display: inline;
 	margin: 0px auto;
 	padding: 0px;
-	vertical-align: middle;
 }
 
 #mainnav ul li a
@@ -155,14 +166,242 @@ body
 	display: inline-block;
 	padding: 0px 5px;
 	color: #EEE;
+	text-transform: uppercase;
+	font-size: .75em;
+	font-weight: bold;
 }
 
 #mainnav ul li:after
 {
 	content: "|";
+	color: #01527A;
+	text-shadow: 1px 0px 1px #BCDDFF;
 }
 
 #mainnav ul li:last-of-type:after
 {
 	content: "";
+}
+
+#mainnav a:hover, #sidenav a:hover, #mainnav a:focus, #sidenav a:focus
+{
+	color: #FF5B00;
+}
+
+#sidenav
+{
+	float: left;
+	margin-top: 3px;
+	margin-right: 15px;
+}
+
+#sidenav ul
+{
+	list-style-position: inside;
+	padding-left: 0px;
+}
+
+#sidenav ul li
+{
+	line-height: 30px;
+	height: 30px;
+	width: 170px;
+	background: linear-gradient(to bottom, #F1F0F0 0%, #B7B7B7 100%);
+	border-top: 1px solid #B7B7B7;
+	padding-left: 10px;
+}
+
+#sidenav ul li:first-of-type
+{
+	list-style: none;
+}
+
+#sidenav ul li a
+{
+	text-decoration: none;
+	color: #333;
+	font-family: verdana;
+	font-size: .59em;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+}
+
+#info
+{
+	float: left;
+	width: 180px;
+	font-size: .65em;
+	position: relative;
+	border-top: 1px solid #DDD;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+#info p
+{
+	width: 135px;
+	margin: 0px;
+	color: #666;
+}
+
+#info img
+{
+	float: right;
+}
+
+#maincontent
+{
+	float: right;
+	height: 600px;
+	margin-right: 15px;
+}
+
+#maincontent h6
+{
+	font-size: .5em;
+	padding-top: 7px;
+}
+
+#maincontent h6 a
+{
+	text-decoration: none;
+	color: #006699;
+}
+
+#maincontent h3
+{
+	border-bottom: 1px solid #DDD;
+	width: 585px;
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#maincontent h5
+{
+	margin-top: 0px;
+}
+
+#textcontent
+{
+	width: 585px;
+	font-size: .80em;
+	line-height: 20px;
+}
+
+#textcontent a, #maincontent ul li a, #textleft a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #0066BC;
+	font-size: .85em;
+	line-height: 20px;
+}
+
+#textcontent a:hover, #maincontent ul li a:hover, #textleft a:hover
+{
+	color: #FF5B00;
+}
+
+#maincontent ul li
+{
+	list-style: none;
+}
+
+#left
+{
+	float: left;
+	width: 310px;
+	margin: 0px;
+}
+
+#left ul
+{
+	margin-top: 0px;
+}
+#left ul li
+{
+	line-height: 37px;
+}
+
+#textleft
+{
+	font-size: .80em;
+	line-height: 20px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+}
+
+#maincontent figure
+{
+	width: 245px;
+	float: right;
+	padding: 10px;
+	border: 1px solid #000;
+	display: block;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+
+#maincontent figcaption
+{
+	font-size: .65em;
+	width: 245px;
+	float: right;
+
+}
+
+footer
+{
+	text-align: center;
+	clear: both;
+	font-size: .65em;
+}
+
+footer nav ul, footer nav ul li
+{
+	display: inline;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+footer nav ul li:after
+{
+	content: "|";
+}
+
+footer nav ul li:last-of-type:after
+{
+	content: "";
+}
+
+footer nav ul li a
+{
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 3px;
+	color: #0066BC;
+}
+
+footer p
+{
+	margin: 0px;
+}
+footer p a
+{
+	color: #0066BC;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:focus
+{
+	color: #FF5B00;
+}
+
+#address
+{
+	color: #888;
 }
